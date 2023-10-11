@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size: 60px;
+    padding: 50px;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/new.gif");
+    background-size: cover;
+}
+
+.clock{
+    font-size: 120px;
+    text-align: center;
+    font-style: bold;
+    color:khaki;
+}
+
+.clock:hover{
+    color:khaki;
+    font-size: 140px;
+    transition: color 0.5s;
+    border: 1px solid khaki;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
